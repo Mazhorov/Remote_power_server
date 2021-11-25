@@ -39,6 +39,7 @@ body {
     font-style: normal;
     line-height: 19px;
     margin-bottom: 19px;
+    margin-top: 5%;;
 }
 .card {
     height: 390px;
@@ -51,7 +52,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .card-name {
     height: 15%;
@@ -59,21 +60,41 @@ body {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .card-name-blue {
     background: linear-gradient(98.95deg, #0906B3 19.04%, #5451DF 53.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    margin-bottom: 0%hh;
+    margin-bottom: 0%;
+}
+.card-name-orange {
+    background: linear-gradient(98.95deg, #B3068D 19.04%, #BA51DF 53.74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 0%;
 }
 .h_line {
     width: 90%;
     height: 2px;
     background: rgb(240, 233, 233)
 }
-
+.text-description {
+    width: 90%;
+    height: 65%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.start-btn {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 @media screen and (max-width: 991px) {
     .script-cards{
         flex-direction: column;
