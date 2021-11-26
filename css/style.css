@@ -26,7 +26,7 @@ body {
 }
 .btn-menu {
     margin-bottom: 50px;
-    width: 460px;
+    width: 70%;
 }
 .btn-menu-off {
     width: 196px;
@@ -137,5 +137,13 @@ body {
     }
     .menu {
         margin-top: 15%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .logo {
+        display: none;
+    }
+    .logo-text{
+        margin-top: 5%;
     }
 }
