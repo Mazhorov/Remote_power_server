@@ -42,9 +42,8 @@ body {
     margin-top: 3%;;
 }
 .card {
-    height: 390px;
     border-radius: 30px;
-    margin: 0%;
+    margin:auto;
     display: flex;
     align-items: center;
     box-shadow: -1px 4px 32px 6px rgba(0, 0, 0, 0.25);
@@ -106,19 +105,10 @@ body {
     justify-content: space-evenly;
 }
 @media screen and (max-width: 991px) {
-    .script-cards{
-        flex-direction: column;
-        margin-top: 3%;
-    }
+    
     .card {
-        height: 90px;
-        margin-bottom: 30px;
-        flex-direction: row;
-        justify-content: space-between;
     }
     .card-name {
-        justify-content: start;
-        margin-left: 8%;
     }
     .text-description {
         display: none;
@@ -127,9 +117,7 @@ body {
         display: none;
     }
     .h_line {
-        width: 2px;
-        height: 90%;
-        margin-right: 5%;
+        display: none;
     }
     .start-btn {
         margin-top: 0%;
